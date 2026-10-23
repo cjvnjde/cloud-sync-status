@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "cjvnjde.cloud-sync-status",
+  "name": "Cloud Sync Status",
+  "version": "1.1.0",
+  "author": "cjvnjde",
+  "license": "MIT",
+  "homepage": "https://github.com/cjvnjde/cloud-sync-status",
+  "description": "Read-only, per-cloud rclone sync progress and local folder paths",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "CloudStatus.qml"
+  },
+  "barWidget": {
+    "displayName": "Cloud Sync Status",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
